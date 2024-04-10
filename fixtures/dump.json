@@ -1,0 +1,68 @@
+[
+{
+  "model": "drf_blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "First Post",
+    "description": "first post",
+    "author": 1,
+    "created_at": "2024-04-10T14:48:45.287Z",
+    "updated_at": "2024-04-10T14:48:45.287Z"
+  }
+},
+{
+  "model": "drf_blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Second post",
+    "description": "Second post",
+    "author": 1,
+    "created_at": "2024-04-10T14:49:26.879Z",
+    "updated_at": "2024-04-10T14:49:26.879Z"
+  }
+},
+{
+  "model": "drf_blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Third Post",
+    "description": "third post",
+    "author": 1,
+    "created_at": "2024-04-10T14:53:46.395Z",
+    "updated_at": "2024-04-10T14:53:46.395Z"
+  }
+},
+{
+  "model": "drf_blog.comment",
+  "pk": 1,
+  "fields": {
+    "text": "good first comment",
+    "author": 1,
+    "created_at": "2024-04-10T14:49:05.369Z",
+    "updated_at": "2024-04-10T14:49:05.369Z",
+    "post": 1
+  }
+},
+{
+  "model": "drf_blog.comment",
+  "pk": 2,
+  "fields": {
+    "text": "second good post",
+    "author": 1,
+    "created_at": "2024-04-10T14:50:03.641Z",
+    "updated_at": "2024-04-10T14:50:03.641Z",
+    "post": 2
+  }
+},
+{
+  "model": "drf_blog.comment",
+  "pk": 3,
+  "fields": {
+    "text": "third good post",
+    "author": 1,
+    "created_at": "2024-04-10T15:10:29.197Z",
+    "updated_at": "2024-04-10T15:10:29.197Z",
+    "post": 3
+  }
+}
+]
